@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
-<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=B8QjTfPkq1EFnXZgPRJ_s2P9-FPKBqd6I9fnwhqSdZtnAwSvRdhgT5KkvX_XUFV1nfV-KiE1O6dP-h6Ij5tFbWTUO1YUI002lZMg-ttbFejFemwpFAOSubyNS-_EfR_8U7edYhwLlIinp29ThqAVsCZro8aDjloDc2pPVBy3ay8z4ujBepava0T5a8jO9Uf51cCLEPYtBZUeIDvHCpq67OryAi9n9xhq-Ny8bBv3DueColBzHKDvHy_ylIcZ23uILwvqlI8c2vWLN7sMi03OD6-GI23GKLVpm0f7_3rdUED8BtgxyRuV-i3PsZF_s-pdr6VfmPHtACmULLyDZKv13FjGpiUbx0OKlQiUAzMCAKV3UJAp8RbGGHkmpIHCeqIy9GiSu5ISAqwmdLO77xsFoWblW9vPzNX3SBCq5KsJNdDRB-YDfJiMXiA3kV-onB__vxlgGh_xaGL-Qgg2AishMvsOi3sB6EffSJ2AEOgZrUkxGFkFsawgD6v77mxEV1U2w-6a30FQdyJ5KQQkCj3_cac-X-MDqD7RpV8hqaNNVe_KP4A27H5FYJiSNu7Bgqhg_7QCjaVpWirZjc3aqZAxYBsH3dB_pUJeIoHE4XdX1xKpHjGG4e9gdW0c5caXY_7EUZYNp8m8JII--3jwXTwkOcQhHuCD2nj2COhoFvdQ3zs" charset="UTF-8"></script></head>
-
+  <link rel="stylesheet" href="./styles/style.css">
 <body>
   <div class="page">
     <header class="header">
@@ -18,7 +16,7 @@
       <img src="./images/header-image.png" alt="Здесь картинка" class="header__main-illustration">
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href="#" class="header__link">Узнать</a>
+        <a href="#" class="header__link">Узнать &xrarr;</a>
       </p>
     </header>
     <main class="content">
@@ -37,7 +35,7 @@
               <span class="two-column__span-accent">Вывод:</span>
               учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?
             </p>
-            <p class="two-column__paragraph two-colomn__paragraph_bottom">
+            <p class="two-column__paragraph">
               Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.
             </p>
@@ -47,7 +45,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <div class="table">
           <div class="table__cell">
             <h3 class="table__heading">
@@ -62,7 +60,7 @@
             <p class="table__text">
               Число нуждающихся в повышении квалификации
             </p>
-            <p class="table__text table__text_child">
+            <p class="table__text">
               Всемирный Банк, 2017
             </p>
           </div>
@@ -89,7 +87,7 @@
             <p class="table__text">
               Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
             </p>
-            <p class="table__text table__text_child">
+            <p class="table__text">
               Всемирный Банк, 2017
             </p>
           </div>
@@ -122,20 +120,21 @@
 
       <section class="feynman">
         <img src="./images/feynman.png" alt="Здесь фотография Феймана" class="feynman__illustration">
-        <h1 class="feynman__title">Метод Фейнмана</h1>
-        <h2 class="feynman__subtitle">Выучить и не забыть.</h2>
-        <a href="#" class="feynman__link">Подробнее-></a>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link">Подробнее &xrarr;</a>
 
       </section>
 
       <section class="kaufman">
-        <img src="./images/kaufman-triangle.svg" alt="Здесь рисунок треугольника" class="kaufman-triangle">
+        <div class="kaufman__triangle">
+        </div>
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">
+        <p class="section-subtitle section-subtitle_theme_dark">
           от Джоша Кауфмана
-        </h3>
+        </p>
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">
@@ -221,45 +220,36 @@
       </section>
     </main>
     <footer class="footer">
-    <div class="footer__column">
+    <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img src="./images/logo_place_header.svg" alt="Здесь должен быть логотип" class="logo logo_place_footer">
-        <p class="footer__author">&copy2021.Валентина Чамкина</p>
+        <img src="./images/logo_place_footer.svg" alt="Здесь должен быть логотип" class="logo logo_place_footer">
+        <p class="footer__author">&copy;2021.Валентина Чамкина</p>
       </div>
       <div class="footer__column footer__column_content_info">
-        <p class="footer__column-heading">
+        <h3 class="footer__column-heading">
           О Практикуме
-        </p>
-        <a href="#" class="footer__column-links">
-          Главная
-        </a>
-        <a href="#" class="footer__column-links">
-          Концепция
-        </a>
-        <a href="#" class="footer__column-links">
-          Наставники
-        </a>
+        </h3>
+        <nav>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__column-link">Главная</a></li>
+            <li><a href="#" class="footer__column-link">Концепция</a></li>
+            <li><a href="#" class="footer__column-link"> Наставники</a></li>
+         </ul>
+      </nav>
       </div>
       <div class="footer__column footer__column_content_social">
-        <p class="footer__column-heading">
+        <h3 class="footer__column-heading">
           Соцсети
-        </p>
-        <a href="#" class="footer__column-links">
-          <img src="./images/facebook_color_white.svg" alt="Здесь иконка Фейсбука" class="social-icon">
-          Facebook
-        </a>
-        <a href="#" class="footer__column-links">
-          <img src="./images/vk_color_white.svg" alt="Здесь иконка ВКонтакте" class="social-icon">
-          ВКонтакте
-        </a>
-        <a href="#" class="footer__column-links">
-          <img src="./images/instagram_color_white.svg" alt="Здесь иконка Инстаграмм" class="social-icon">
-          Instagram
-        </a>
+        </h3>
+        <a href="#" class="footer__column-link">
+          <img src="./images/facebook_color_white.svg" alt="Здесь иконка Фейсбука" class="footer__social-icon">Facebook</a> 
+        <a href="#" class="footer__column-link">
+          <img src="./images/vk_color_white.svg" alt="Здесь иконка ВКонтакте" class="footer__social-icon">ВКонтакте</a>
+        <a href="#" class="footer__column-link">
+          <img src="./images/instagram_color_white.svg" alt="Здесь иконка Инстаграмм" class="footer__social-icon">Instagram</a>
       </div>
     </div>
     </footer>
  </div>
 </body>
-
 </html>
